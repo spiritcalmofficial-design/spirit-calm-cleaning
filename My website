@@ -1,0 +1,33 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spirit Calm Cleaning Services</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f7f9f8; color: #234; }
+    header { background: #0f3f3a; color: white; padding: 20px; text-align: center; }
+    header img { max-width: 120px; }
+    section { padding: 30px; max-width: 900px; margin: auto; }
+    h2 { color: #0f3f3a; }
+    .service { background: white; padding: 15px; margin-bottom: 15px; border-radius: 8px; }
+    label { display: block; margin: 8px 0; }
+    button { background: #0f3f3a; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
+    button:hover { opacity: 0.9; }
+    footer { text-align: center; padding: 20px; background: #e3ecea; }
+  </style>
+</head>
+<body><header>
+  <h1>Spirit Calm Cleaning Services</h1>
+  <p>Professional • Calm • Reliable</p>
+</header><section>
+  <h2>Select Your Services</h2>  <form id="bookingForm"><div class="service">
+  <h3>House / Apartment Cleaning</h3>
+  <label><input type="checkbox" value="Standard Cleaning – from Rs 900"> Standard Cleaning – from Rs 900</label>
+  <label><input type="checkbox" value="Large Home – from Rs 1,500"> Large Home – from Rs 1,500</label>
+  <small>Lower rates for daily/weekly services</small>
+</div>
+
+<div class="service">
+  <h3>Deep Cleaning</h3>
+  <label><input type="checkbox" value="Full Home Deep Clean – from Rs 5,000"> Full Home Deep Clean – from Rs 5,000</label>
+  <label><input type="checkbox"
